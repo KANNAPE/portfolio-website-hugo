@@ -3,6 +3,11 @@ title: "About"
 showAuthor: true
 ---
 
+// https://glomyer.dev/about/
+
+// https://www.youtube.com/watch?v=MX4yy1dTVYg part 1
+// https://www.youtube.com/watch?v=FZMgUSlNp-0 part 2
+
 # Skills
 
 ## Programming Languages
