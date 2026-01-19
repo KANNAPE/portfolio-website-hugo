@@ -1,12 +1,28 @@
 ---
 title: "About"
+description: "A few words about me"
 showAuthor: true
+showHero: false
+heroStyle: "background"
 ---
 
-// https://glomyer.dev/about/
+<!-- https://glomyer.dev/about/ -->
 
-// https://www.youtube.com/watch?v=MX4yy1dTVYg part 1
-// https://www.youtube.com/watch?v=FZMgUSlNp-0 part 2
+<!-- https://www.youtube.com/watch?v=MX4yy1dTVYg part 1 -->
+<!-- https://www.youtube.com/watch?v=FZMgUSlNp-0 part 2 -->
+
+
+{{< typeit
+    tag="h2"
+    lifeLike=true
+>}} 
+Welcome to my portfolio! 🐊
+{{< /typeit >}}
+
+
+
+{{< lead >}}  {{< /lead >}}
+
 
 # Skills
 

@@ -9,8 +9,8 @@ title = "KANNAPE • Portfolio"
 	isoCode = "en"
 	rtl = false
 	dateFormat = "2 January 2006"
-	logo = "img/logo.png"
-	secondaryLogo = "img/secondary-logo.png"
+	logo = "images/logo.png"
+	#secondaryLogo = "images/badge.png"
 	description = "My awesome website"
 	copyright = "© 2026 Thomas BERGER"
 
