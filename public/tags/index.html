@@ -112,8 +112,8 @@
   <link
     type="text/css"
     rel="stylesheet"
-    href="/css/main.bundle.min.a34fb2125926b1a0f75fd5ceed97d35b2aee2af71c000c226755db4a8c4fa59c4dee848a4a8c12e29ec26268b930555109f0c9726853fbb114500d66b1a38f9d.css"
-    integrity="sha512-o0&#43;yElkmsaD3X9XO7ZfTWyruKvccAAwiZ1XbSoxPpZxN7oSKSowS4p7CYmi5MFVRCfDJcmhT&#43;7EUUA1msaOPnQ==">
+    href="/css/main.bundle.min.43cf371f789b70aea4a8b90a32d3e2444bbf0095c0d00a735911b3c1749bf2f0511fca1b354b85cdcff12d72ed90db6d7f8af63beb94e7111e3c1fef5c5f8afa.css"
+    integrity="sha512-Q883H3ibcK6kqLkKMtPiREu/AJXA0ApzWRGzwXSb8vBRH8obNUuFzc/xLXLtkNttf4r2O&#43;uU5xEePB/vXF&#43;K&#43;g==">
 
   
   
@@ -131,8 +131,6 @@
   
   
   
-    
-  
   
   
   
@@ -145,8 +143,8 @@
       defer
       type="text/javascript"
       id="script-bundle"
-      src="/js/main.bundle.min.eb1cab4fe4b9f760444cfbaf02c7410770218e3a2789ec108c0d7d741aa0fbc02e43567bc4e4f2ed05e6acc6096e291a4ff0cf8e6e852fcc31e4be9e48c33c63.js"
-      integrity="sha512-6xyrT&#43;S592BETPuvAsdBB3AhjjoniewQjA19dBqg&#43;8AuQ1Z7xOTy7QXmrMYJbikaT/DPjm6FL8wx5L6eSMM8Yw=="
+      src="/js/main.bundle.min.886ef670f1eeaf8e4c7d2b8e10edaedfaa9d964f98f8717e02d2bfbd677c1fe9984696433d8c8b3105df92d32311ec18d192c75f4a1221a2336bfdc6450b9d2d.js"
+      integrity="sha512-iG72cPHur45MfSuOEO2u36qdlk&#43;Y&#43;HF&#43;AtK/vWd8H&#43;mYRpZDPYyLMQXfktMjEewY0ZLHX0oSIaIza/3GRQudLQ=="
       data-copy="Copy"
       data-copied="Copied"></script>
   
@@ -282,10 +280,7 @@
     
     
       <div class="min-h-[148px]"></div>
-<div class="fixed inset-x-0 z-100">
-  <div
-    id="menu-blur"
-    class="absolute opacity-0 inset-x-0 top-0 h-full single_hero_background nozoom backdrop-blur-2xl shadow-2xl bg-neutral/25 dark:bg-neutral-800/25"></div>
+<div class="fixed inset-x-0 bg-neutral dark:bg-neutral-800 z-100">
   <div class="relative m-auto leading-7 max-w-7xl px-6 sm:px-14 md:px-24 lg:px-32">
     <div class="main-menu flex items-center w-full gap-2 p-1 pl-0">
   
@@ -671,16 +666,26 @@
 
 
 
+  <script>
+    (function () {
+      var mainmenu = document.querySelector(".main-menu");
+      if (!mainmenu) return;
+
+      var path = window.location.pathname;
+      var links = mainmenu.querySelectorAll('a[href="' + path + '"]');
+
+      links.forEach(function (link) {
+        var targets = link.querySelectorAll("span");
+        targets.forEach(function (el) {
+          el.classList.add("active");
+        });
+      });
+    })();
+  </script>
+
 
   </div>
 </div>
-
-
-<script
-  type="text/javascript"
-  src="/js/background-blur.min.605b3b942818f0ab5a717ae446135ec46b8ee5a2ad12ae56fb90dc2a76ce30c388f9fec8bcc18db15bd47e3fa8a09d779fa12aa9c184cf614a315bc72c6c163d.js"
-  integrity="sha512-YFs7lCgY8KtacXrkRhNexGuO5aKtEq5W&#43;5DcKnbOMMOI&#43;f7IvMGNsVvUfj&#43;ooJ13n6EqqcGEz2FKMVvHLGwWPQ=="
-  data-blur-id="menu-blur"></script>
 
     
     <div class="relative flex flex-col grow">
@@ -733,27 +738,6 @@
 
 
         
-
-
-  
-
-
-
-
-
-
-<div
-  id="scroll-to-top"
-  class="fixed bottom-6 end-6 z-50 transform translate-y-4 opacity-0 duration-200">
-  <a
-    href="#the-top"
-    class="pointer-events-auto flex h-12 w-12 items-center justify-center rounded-full bg-neutral/50 text-xl text-neutral-700 hover:text-primary-600 dark:bg-neutral-800/50 dark:text-neutral dark:hover:text-primary-400"
-    aria-label="Scroll to top"
-    title="Scroll to top">
-    &uarr;
-  </a>
-</div>
-
       </main><footer id="site-footer" class="py-10 print:hidden">
   
   

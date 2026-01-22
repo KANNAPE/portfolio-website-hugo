@@ -32,7 +32,7 @@ disableImageZoom = true
 hotlinkFeatureImage = false
 # imagePosition = "50% 50%"
 
-# highlightCurrentMenuArea = true
+highlightCurrentMenuArea = true
 # smartTOC = true
 # smartTOCHideUnfocusedChildren = true
 
@@ -42,14 +42,14 @@ giteaDefaultServer = "https://git.fsfe.org"
 forgejoDefaultServer = "https://v11.next.forgejo.org"
 
 [header]
-  layout = "fixed" # valid options: basic, fixed, fixed-fill, fixed-gradient, fixed-fill-blur
+  layout = "fixed-fill" # valid options: basic, fixed, fixed-fill, fixed-gradient, fixed-fill-blur
 
 [footer]
   showMenu = true
   showCopyright = true
   showThemeAttribution = true
   showAppearanceSwitcher = true
-  showScrollToTop = true
+  showScrollToTop = false
 
 [homepage]
   layout = "custom" # valid options: page, profile, hero, card, background, custom
