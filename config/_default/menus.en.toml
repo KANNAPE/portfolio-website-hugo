@@ -13,39 +13,39 @@
 #NO BLOG
 
 [[main]]
- name = "About"
+ name = "about"
  pageRef = "about"
  weight = 10
 
 [[main]]
- name = "Experience"
+ name = "experience"
  pageRef = "experience"
  weight = 20
 
 [[main]]
- name = "Projects"
+ name = "projects"
  weight = 30
 
 [[main]]
- name = "Games"
- parent = "Projects"
+ name = "games"
+ parent = "projects"
  pageRef = "projects/games"
  weight = 1
 
  [[main]]
- name = "Coding"
- parent = "Projects"
+ name = "coding"
+ parent = "projects"
  pageRef = "projects/coding"
  weight = 2
 
  [[main]]
- name = "Writings"
- parent = "Projects"
+ name = "writings"
+ parent = "projects"
  pageRef = "projects/writings"
  weight = 3
 
  [[main]]
- name = "Contact"
+ name = "contact"
  pageRef = "contact"
  weight = 40
 
