@@ -2,8 +2,6 @@
 title: "About"
 description: "A few words about me"
 showAuthor: true
-showHero: false
-heroStyle: "background"
 ---
 
 <!-- https://glomyer.dev/about/ -->

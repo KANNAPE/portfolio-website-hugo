@@ -8,6 +8,18 @@
     background: linear-gradient(135deg,rgba(0, 191, 194, 1) 0%, rgba(173, 83, 237, 1) 100%);
 }
 
+.parallax-layer {
+  position: absolute;
+}
+
+#layer-0 {
+  z-index: 10;
+  background-image: url('/assets/images/background/layer-background-parallax_0.png');
+  background-repeat: repeat;
+  background-position: center;
+  background-size: auto;
+}
+
 /* .parallax-wrapper {
   height: 100vh;
   overflow-x: hidden;

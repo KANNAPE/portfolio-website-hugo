@@ -17,7 +17,7 @@ title = "KANNAPE • Portfolio"
 [params.author]
 	name = "Thomas BERGER"
 	email = "bergerthomas38@gmail.com"
-	image = "images/profile_pic.jpg"
+	image = "images/photo.png"
 	imageQuality = 96
 	headline = "Gamedev programmer"
 	bio = "I'm a gamedev programmer with 3 years of experience. I'm passionate about game development and I'm always looking for new challenges."
