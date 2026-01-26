@@ -22,9 +22,9 @@ title = "KANNAPE • Portfolio"
 	headline = "Gamedev programmer"
 	bio = "I'm a gamedev programmer with 3 years of experience. I'm passionate about game development and I'm always looking for new challenges."
 	links = [
-	{ email = "mailto:bergerthomas38@gmail.com" },
-	{ github = "https://github.com/kannape" },
 	{ linkedin = "https://linkedin.com/in/kannape" },
+	{ github = "https://github.com/kannape" },
+	{ email = "mailto:bergerthomas38@gmail.com" },
   ]
 
 

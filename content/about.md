@@ -1,7 +1,7 @@
 ---
 title: "About"
 description: "A few words about me"
-showAuthor: true
+showAuthor: false
 ---
 
 <!-- https://glomyer.dev/about/ -->
@@ -10,34 +10,48 @@ showAuthor: true
 <!-- https://www.youtube.com/watch?v=FZMgUSlNp-0 part 2 -->
 
 
-{{< typeit
-    tag="h2"
-    lifeLike=true
->}} 
-Welcome to my portfolio! 🐊
-{{< /typeit >}}
+ 
+# Welcome to my website! 🐊
 
+Hi! I'm Thomas, a `game developer` and `software engineer` based in France. I like to create things, whether it's games, tools, or stories.
 
+On this portfolio, you will find a summary of all my professional experiences, a few of my personal projects, and of course, my writings!
 
-{{< lead >}}  {{< /lead >}}
+## Skills ⚙️
 
+Even if I specialize in game development, I also have skills in other engineering fields, such as backend development, web development, and mathematics.
 
-# Skills
+### Gamedev softwares
 
-## Programming Languages
+- Unreal Engine 💖
+- Godot 💖
+- Unity
+- SFML
 
-- **Python**: 5 years
-- **JavaScript**: 3 years
-- **Java**: 2 years
+### Programming languages
 
-## Frameworks
+- C++ 💖
+- Golang 💖
+- C
+- C#
+- Python
+- Rust
 
-- **React**: 3 years
-- **Node.js**: 3 years
-- **Django**: 2 years
+### Other softwares & tools
 
-## Tools
+- Git
+- Photoshop
+- Illustrator
+- Google Antigravity
+- Blender
+- Docker
+- OBS
+- Linux
+- Windows
 
-- **Git**: 5 years
-- **Docker**: 2 years
-- **AWS**: 1 year
+## About me
+
+I've always been fascinated by video games. I remember playing them as a kid and being amazed by the worlds and stories they could create. It was like magic! As I grew older, I started to wonder how these games were made and what it took to create them. That's when I discovered game development and realized that it was something I wanted to pursue as a career.
+
+Programming then became evident. I started with C++ and SFML, then moved on to C# with Unity, and eventually discovered Unreal Engine, which I've been using ever since.
+
