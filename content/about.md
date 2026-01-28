@@ -2,6 +2,7 @@
 title: "About"
 description: "A few words about me"
 showAuthor: false
+showTableOfContents: true
 ---
 
 <!-- https://glomyer.dev/about/ -->
