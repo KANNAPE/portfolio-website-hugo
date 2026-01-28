@@ -18,7 +18,7 @@
     transform: translate(0, 0);
   }
   to {
-    transform: translate(512px, 512px);
+    transform: translate(10em, 10em);
   }
 }
 
@@ -32,7 +32,7 @@
   background-repeat: repeat;
   background-position: center;
   background-size: 10em;
-  animation: BackgroundSlide 60s linear infinite;
+  animation: BackgroundSlide 10s linear infinite;
   opacity: 0.6;
   filter: blur(2px);
 }

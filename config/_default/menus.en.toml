@@ -24,25 +24,8 @@
 
 [[main]]
  name = "projects"
+ pageRef = "projects"
  weight = 30
-
-[[main]]
- name = "games"
- parent = "projects"
- pageRef = "projects/games"
- weight = 1
-
- [[main]]
- name = "coding"
- parent = "projects"
- pageRef = "projects/coding"
- weight = 2
-
- [[main]]
- name = "writings"
- parent = "projects"
- pageRef = "projects/writings"
- weight = 3
 
  [[main]]
  name = "contact"

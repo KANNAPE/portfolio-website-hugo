@@ -92,4 +92,11 @@ $backgroundBlur = $backgroundBlur | resources.Minify | resources.Fingerprint
   integrity="{{ $backgroundBlur.Data.Integrity }}"
   data-blur-id="background-blur"
 ></script>
+<script defer type="text/javascript">
+  var navBar = document.getElementById("menu-blur");
+
+  navBar.style.backgroundColor = "rgba(255, 255, 255, 0.1)";
+
+  console.log(navBar);
+</script>
 {{ end }}
