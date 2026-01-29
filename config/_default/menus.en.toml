@@ -13,11 +13,6 @@
 #NO BLOG
 
 [[main]]
- name = "about"
- pageRef = "about"
- weight = 10
-
-[[main]]
  name = "experience"
  pageRef = "experience"
  weight = 20
@@ -28,9 +23,14 @@
  weight = 30
 
  [[main]]
+ name = "about"
+ pageRef = "about"
+ weight = 40
+
+ [[main]]
  name = "contact"
  pageRef = "contact"
- weight = 40
+ weight = 50
 
 
 # -- Footer Menu --
