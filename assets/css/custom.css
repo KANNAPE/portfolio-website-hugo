@@ -36,3 +36,21 @@
   opacity: 0.6;
   filter: blur(2px);
 }
+
+.profile-pic-container {
+  display: flex;
+  align-items: center;
+  position: relative;
+
+  background: linear-gradient(135deg, rgba(0, 191, 194, 1) 0%, rgba(173, 83, 237, 1) 100%);
+  box-sizing: border-box;
+  
+  padding: 5px;
+  border-radius: 15%;
+}
+
+.profile-pic {
+  margin: 0;
+  border-radius: 15%;
+}
+

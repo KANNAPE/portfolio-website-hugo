@@ -32,14 +32,16 @@ false }}
           := int (math.Min $authorImage.Width $authorImage.Height) }} {{
           $squareImage = $authorImage.Crop (printf "%dx%d" $shortSide $shortSide
           ) }} {{ end }}
-          <img
-            class="mb-2 h-36 w-36 profile-pic"
-            width="144"
-            height="144"
-            alt="{{ $.Site.Params.Author.name | default `Author` }}"
+          <div class="mb-2 profile-pic-container">
+            <img
+              class="h-36 w-36 profile-pic"
+              width="144"
+              height="144"
+              alt="{{ $.Site.Params.Author.name | default `Author` }}"
             src="{{ $final.RelPermalink }}"
             data-zoom-src="{{ $squareImage.RelPermalink }}"
           />
+          </div>
           {{ end }} {{ end }}
           <h1
             class="mb-2 text-4xl font-extrabold text-neutral-800 dark:text-neutral-200"
