@@ -33,14 +33,19 @@ Tasks:
 
 {{< /timeline >}}
 
-## Personal projects
+## Formation
 
 {{< timeline >}}
 
-{{< timelineItem md="true" link="https://github.com/KANNAPE/NetworkCMC" icon="github" header="Fracture" subheader="Game prototype — UI & Online gameplay" >}}
-{{< badge >}}Unreal Engine{{< /badge >}}
+{{< timelineItem md="true" icon="graduation-cap" header="Bachelor of Computer Science" subheader="Game Programming — Creajeux, Nîmes" >}}
 
-Since <b style="color: rgb(var(--color-primary-300));">March 2025</b>, I'm working on my free time on a game prototype called *Fracture*. <br><br>I wanted to recreate the feeling of **freedom and exploration** of the character controller from the game *Anthem*.<br>I'm also using this project to learn the **Mover component** from Unreal Engine, and how to manage **networking and online classes and subsystems**.
+From <b style="color: rgb(var(--color-primary-300));">September 2020</b> to <b style="color: rgb(var(--color-primary-300));">June 2023</b>, I studied at Creajeux, a game development school in Nîmes, France. I obtained a Bachelor of Computer Science with a specialization in Game Programming.
+
+Topics:
+- Studiying of gameplay programming
+- Networking and online programming
+- AI programming
+- Game design
 
 {{< /timelineItem >}}
 

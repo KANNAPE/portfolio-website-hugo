@@ -1,0 +1,9 @@
+<div class="skills-container">
+    {{ $items := (.Inner | strings.TrimSpace) }}
+    {{ $items = split $items "," }}
+    {{ range $items }}
+    <span class="skill-badge">
+        {{ . }}
+    </span>
+    {{ end }}
+</div>

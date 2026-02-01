@@ -12,43 +12,46 @@ showTableOfContents: true
 
 
  
-# Welcome to my website! 🐊
+# Hello! I'm Thomas, and welcome to my website 🐊
 
-Hi! I'm Thomas, a `game developer` and `software engineer` based in France. I like to create things, whether it's games, tools, or stories.
+<div class="flex-container">
+    <div class="bio">
+        <p>
+            I'm a <code>game developer 🕹️</code>, a <code>software engineer 💻</code>, and a <code>writer ✍️</code> based in <b>Lyon, France</b>. I like to create things, whether it's games, tools, or stories.
+        </p>
+        <p>
+            On this portfolio, you will find a summary of all my professional experiences, a few of my personal projects, and of course, my writings!
+        </p>
+    </div>
+</div>
 
-On this portfolio, you will find a summary of all my professional experiences, a few of my personal projects, and of course, my writings!
-
-## Skills ⚙️
+## Skills
 
 Even if I specialize in game development, I also have skills in other engineering fields, such as backend development, web development, and mathematics.
 
-### Gamedev softwares
+### 🕹️ Gamedev softwares
 
-- Unreal Engine 💖
-- Godot 💖
-- Unity
-- SFML
+{{< skills >}}
+Unreal Engine, Godot, Unity, SFML
+{{< /skills >}}
 
-### Programming languages
+### 💻 Programming languages
 
-- C++ 💖
-- Golang 💖
-- C
-- C#
-- Python
-- Rust
+{{< skills >}}
+C++, Golang, C, C#, Python, Rust
+{{< /skills >}}
 
-### Other softwares & tools
+### 🌐 APIs & OS
 
-- Git
-- Photoshop
-- Illustrator
-- Google Antigravity
-- Blender
-- Docker
-- OBS
-- Linux
-- Windows
+{{< skills >}}
+REST, GraphQL, Linux, Windows
+{{< /skills >}}
+
+### 🛠️ Other softwares & tools
+
+{{< skills >}}
+Git, Photoshop, Illustrator, Google Antigravity, Blender, Docker, OBS
+{{< /skills >}}
 
 ## About me
 
