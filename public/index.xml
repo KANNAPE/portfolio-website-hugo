@@ -12,36 +12,6 @@
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title></title>
-      <link>http://localhost:1313/projects/coding/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <author>bergerthomas38@gmail.com (Thomas BERGER)</author>
-      <guid>http://localhost:1313/projects/coding/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title></title>
-      <link>http://localhost:1313/projects/games/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <author>bergerthomas38@gmail.com (Thomas BERGER)</author>
-      <guid>http://localhost:1313/projects/games/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title></title>
-      <link>http://localhost:1313/projects/writings/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <author>bergerthomas38@gmail.com (Thomas BERGER)</author>
-      <guid>http://localhost:1313/projects/writings/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
       <title>About</title>
       <link>http://localhost:1313/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -67,6 +37,16 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>bergerthomas38@gmail.com (Thomas BERGER)</author>
       <guid>http://localhost:1313/experience/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Projects</title>
+      <link>http://localhost:1313/projects/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>bergerthomas38@gmail.com (Thomas BERGER)</author>
+      <guid>http://localhost:1313/projects/</guid>
       <description></description>
       
     </item>

@@ -1,7 +1,6 @@
 ---
 title: "About"
-description: "A few words about me"
-showAuthor: false
+description: "A few words about me and my skillset"
 showTableOfContents: true
 ---
 
