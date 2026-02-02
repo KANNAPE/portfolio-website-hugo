@@ -31,7 +31,7 @@ Even if I specialize in game development, I also have skills in other engineerin
 ### 🕹️ Gamedev softwares
 
 {{< skills >}}
-Unreal Engine, Godot, Unity, SFML
+Unreal Engine, Godot, Unity
 {{< /skills >}}
 
 ### 💻 Programming languages
@@ -46,10 +46,16 @@ C++, Golang, C, C#, Python, Rust
 REST, GraphQL, Linux, Windows
 {{< /skills >}}
 
-### 🛠️ Other softwares & tools
+### 🛠️ Softwares developpement tools
 
 {{< skills >}}
-Git, Photoshop, Illustrator, Google Antigravity, Blender, Docker, OBS
+Git, Google Antigravity, Docker, OBS
+{{< /skills >}}
+
+### 🎨 Graphic design & 3D
+
+{{< skills >}}
+Photoshop, Illustrator, Blender
 {{< /skills >}}
 
 ## About me

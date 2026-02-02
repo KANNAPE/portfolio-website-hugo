@@ -33,7 +33,7 @@ Tasks:
 
 {{< /timeline >}}
 
-## Formation
+## Education
 
 {{< timeline >}}
 
