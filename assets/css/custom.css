@@ -1,3 +1,9 @@
+@layer base {
+html {
+  scrollbar-gutter: stable both-edges;
+}
+}
+
 @layer components {
 :root {
   --color-gradient-blue: #00bfc2;
@@ -13,6 +19,13 @@ html.dark {
   --color-profile-pic-border: rgb(var(--color-neutral-200));
 }
 } 
+
+.text-logo {
+  font-family: 'Candal', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.5rem;
+}
 
 #single_header {
   display: none;
@@ -34,7 +47,7 @@ html.dark {
     transform: translate(0, 0);
   }
   to {
-    transform: translate(10em, 10em);
+    transform: translate(70em, 70em);
   }
 }
 
@@ -44,11 +57,11 @@ html.dark {
   left: -50%;
   width: 200%;
   height: 200%;
-  background-image: url("/img/background.png");
+  background-image: url("/img/background_alt.png");
   background-repeat: repeat;
   background-position: center;
-  background-size: 10em;
-  animation: BackgroundSlide 10s linear infinite;
+  background-size: 70em;
+  animation: BackgroundSlide 230s linear infinite;
   opacity: 0.6;
   filter: blur(2px);
 }

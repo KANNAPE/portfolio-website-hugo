@@ -22,7 +22,7 @@ replyByEmail = false
 
 disableImageOptimization = false
 disableImageOptimizationMD = false
-disableTextInHeader = true
+disableTextInHeader = false
 disableImageZoom = true
 # backgroundImageWidth = 1200
 
