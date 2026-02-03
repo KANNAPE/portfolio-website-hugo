@@ -3,20 +3,12 @@ title: "About"
 description: "A few words about me and my skillset"
 showTableOfContents: true
 ---
-
-<!-- https://glomyer.dev/about/ -->
-
-<!-- https://www.youtube.com/watch?v=MX4yy1dTVYg part 1 -->
-<!-- https://www.youtube.com/watch?v=FZMgUSlNp-0 part 2 -->
-
-
- 
-# Hello! I'm Thomas, and welcome to my website 🐊
+# Hello! I'm kannape. 🐊
 
 <div class="flex-container">
     <div class="bio">
         <p>
-            I'm a <code>game developer 🕹️</code>, a <code>software engineer 💻</code>, and a <code>writer ✍️</code> based in <b>Lyon, France</b>. I like to create things, whether it's games, tools, or stories.
+            My name is Thomas, and I'm a <code>game developer 🕹️</code>, a <code>software engineer 💻</code>, and a <code>writer ✍️</code> based in <b>Lyon, France</b>. I like to create things, whether it's games, tools, or stories.
         </p>
         <p>
             On this portfolio, you will find a summary of all my professional experiences, a few of my personal projects, and of course, my writings!

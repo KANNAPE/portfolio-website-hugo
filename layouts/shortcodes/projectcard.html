@@ -1,0 +1,25 @@
+{{ $link := .Get "link" }}
+{{ $title := .Get "title" }}
+{{ $desc := .Get "desc" }}
+{{ $tech := .Get "tech" }}
+
+<div class="group relative flex flex-col justify-between p-6 bg-neutral-100 dark:bg-neutral-800 rounded-2xl border border-neutral-200 dark:border-neutral-700 shadow-lg hover:shadow-2xl hover:scale-[1.02] transition-all duration-300">
+  <div>
+    <h3 class="mt-0 text-xl font-bold group-hover:text-primary-600 transition-colors">
+      {{ $title }}
+    </h3>
+    {{ if $tech }}
+    <span class="text-xs font-mono text-primary-500 mb-4 block">{{ $tech }}</span>
+    {{ end }}
+    <p class="text-neutral-600 dark:text-neutral-300 text-sm leading-relaxed">
+      {{ $desc }}
+    </p>
+  </div>
+  
+  {{ if $link }}
+  <a href="{{ $link }}" target="_blank" class="mt-6 inline-flex items-center text-sm font-medium text-primary-600 hover:underline">
+    Voir le projet
+    <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path></svg>
+  </a>
+  {{ end }}
+</div>

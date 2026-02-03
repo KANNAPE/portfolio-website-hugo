@@ -1,6 +1,7 @@
 ---
 title: "Contact"
 description: "A form to contact me"
+showTableOfContents: false
 ---
 
 # Contact

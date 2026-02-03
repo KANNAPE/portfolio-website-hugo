@@ -1,8 +1,18 @@
 ---
 title: "Projects"
 description: "A list of my recent personal coding projects"
-showTableOfContents: true
 ---
+
+# Test
+
+Here's a sneak peek of what I'm working on.
+
+{{< cardgrid >}}
+  {{< projectcard link="https://github.com/KANNAPE/go-quizz-web-app" title="Go Quizz Web App" desc="Web application — Quizz game" tech="Golang, WebSockets" >}}
+  {{< projectcard link="https://github.com/KANNAPE/go-quizz-web-app" title="Go Quizz Web App" desc="Web application — Quizz game" tech="Golang, WebSockets" >}}
+  {{< projectcard link="https://github.com/KANNAPE/go-quizz-web-app" title="Go Quizz Web App" desc="Web application — Quizz game" tech="Golang, WebSockets" >}}
+  {{< projectcard link="https://github.com/KANNAPE/go-quizz-web-app" title="Go Quizz Web App" desc="Web application — Quizz game" tech="Golang, WebSockets" >}}
+{{< /cardgrid >}}
 
 # Projects
 

@@ -9,6 +9,15 @@ description: "All my professional experiences displayed in a timeline"
 
 {{< timeline >}}
 
+<li>
+    <h3>
+        🏎️ <span style="text-decoration: underline dashed; text-underline-offset: 10px;">Kylotonn - KT Racing</span>
+    </h3>
+    <span>
+        
+    </span>
+</li>
+
 {{< timelineItem md="true" icon="steam" header="Endurance Motorsport Series" subheader="Endurance racing game — Gameplay Programmer" link="https://store.steampowered.com/app/2228250/Endurance_Motorsport_Series/" >}}
 
 Since <b class="date-timeline">January 2024</b>, I'm working as a gameplay programmer on *Endurance Motorsport Series*, an endurance racing game.
