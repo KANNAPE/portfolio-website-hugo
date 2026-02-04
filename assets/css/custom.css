@@ -169,10 +169,6 @@ h1 {
   color: rgb(var(--color-neutral-700));
 }
 
-.timeline-item {
-  padding-bottom: 3rem;
-}
-
 .border-l-2 {
   border-color: rgba(var(--color-primary-500), 0.3) !important;
   border-width: 2px !important;
@@ -197,12 +193,34 @@ h1 {
   position: relative;
 }
 
+.timeline-milestone h2 {
+  margin: 10px 0 30px;
+  font-weight: normal;
+}
+
 .hider {
   width: 30px;
-  height: calc(100% - 2.25rem);
+  height: calc(var(--spacing) * 9);
   position: absolute;
-  top: 0;
-  left: -42px;
+  margin-left: calc(var(--spacing) * -12);
   z-index: 1;
+}
+
+.timeline-milestone-icon {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 20px;
+  margin-left: calc(var(--spacing) * -12 + 5px);
+  z-index: 1;
+}
+
+.timeline-milestone-icon div {
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  z-index: 2;
 }
 
