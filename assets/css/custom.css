@@ -1,8 +1,30 @@
 :root {
-  --color-primary-800: 255, 0, 0;
+  /* Overriding theme colors */
+    /* Purple */
+  --color-primary-50: 229, 248, 248;
+  --color-primary-100: 204, 242, 242;
+  --color-primary-200: 153, 229, 230;
+  --color-primary-300: 102, 216, 218;
+  --color-primary-400: 50, 203, 206;
+  --color-primary-500: 0, 191, 194;
+  --color-primary-600: 0, 146, 155;
+  --color-primary-700: 0, 109, 116;
+  --color-primary-800: 0, 73, 77;
+  --color-primary-900: 0, 36, 38;
+    /* Blue */
+  --color-secondary-50: 246, 237, 253;
+  --color-secondary-100: 238, 220, 251;
+  --color-secondary-200: 222, 186, 247;
+  --color-secondary-300: 205, 151, 244;
+  --color-secondary-400: 184, 103, 241;
+  --color-secondary-500: 173, 83, 237;
+  --color-secondary-600: 146, 41, 212;
+  --color-secondary-700: 124, 28, 175;
+  --color-secondary-800: 104, 25, 143;
+  --color-secondary-900: 84, 26, 117;
 
-  --color-gradient-blue: #00bfc2;
-  --color-gradient-purple: #ad53ed;
+  --color-gradient-blue: rgb(var(--color-primary-500));
+  --color-gradient-purple: rgb(var(--color-secondary-500));
 
   --color-date-timeline: rgb(var(--color-primary-500));
   --color-profile-pic-border: rgb(var(--color-neutral-800));
@@ -12,10 +34,8 @@ html.dark {
   --color-profile-pic-border: rgb(var(--color-neutral-200));
 }
 
-@layer base {
 html {
   scrollbar-gutter: stable both-edges;
-}
 }
 
 h1 {
@@ -33,6 +53,24 @@ h1 {
 
 #single_header {
   display: none;
+}
+
+.text-secondary-800 {
+  color: rgb(var(--color-secondary-800));
+}
+
+.dark\:text-secondary-200 {
+  &:is(.dark *) {
+    color: rgb(var(--color-secondary-200));
+  }
+}
+
+.hover\:text-secondary-400 {
+  &:hover {
+    @media (hover: hover) {
+      color: rgba(var(--color-secondary-400), 1);
+    }
+  }
 }
 
 #background {
@@ -154,3 +192,17 @@ h1 {
   border: 1px solid rgba(var(--color-neutral-700), 0.5);
   background-color: rgba(var(--color-neutral-800), 0.5);
 }
+
+.timeline-milestone {
+  position: relative;
+}
+
+.hider {
+  width: 30px;
+  height: calc(100% - 2.25rem);
+  position: absolute;
+  top: 0;
+  left: -42px;
+  z-index: 1;
+}
+

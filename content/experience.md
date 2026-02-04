@@ -5,18 +5,11 @@ description: "All my professional experiences displayed in a timeline"
 
 # Experiences
 
-## Professional experiences
-
 {{< timeline >}}
 
-<li>
-    <h3>
-        🏎️ <span style="text-decoration: underline dashed; text-underline-offset: 10px;">Kylotonn - KT Racing</span>
-    </h3>
-    <span>
-        
-    </span>
-</li>
+{{< timelineMilestone >}}
+Kylotonn - KT Racing
+{{< /timelineMilestone >}}
 
 {{< timelineItem md="true" icon="steam" header="Endurance Motorsport Series" subheader="Endurance racing game — Gameplay Programmer" link="https://store.steampowered.com/app/2228250/Endurance_Motorsport_Series/" >}}
 
