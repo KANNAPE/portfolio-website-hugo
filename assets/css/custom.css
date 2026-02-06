@@ -169,9 +169,62 @@ h1 {
   color: rgb(var(--color-neutral-700));
 }
 
+@property --button-color-blue {
+  syntax: '<color>';
+  initial-value: rgb(0, 191, 194);
+  inherits: false;
+}
+
+@property --button-color-purple {
+  syntax: '<color>';
+  initial-value: rgb(173, 83, 237);
+  inherits: false;
+}
+
+.button {
+  background: linear-gradient(
+    135deg,
+    var(--button-color-blue) 0%,
+    var(--button-color-purple) 100%
+  );
+  transition: --button-color-blue 0.1s ease-in, --button-color-purple 0.1s ease-in;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.button:hover {
+  --button-color-blue: var(--color-gradient-purple);
+  --button-color-purple: var(--color-gradient-blue);
+}
+
+.button span {
+  display: block;
+  overflow: hidden;
+  position: relative;
+}
+
+.button span::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 0.1em;
+  background-color: rgb(var(--color-neutral));
+  transform: translateX(-101%); /* and not 100% otherwise a pixel is visible on the left (wtf???) */
+  transition: transform 0.2s ease-out;
+}
+
+.button span:hover::after {
+  transform: translateX(0);
+}
+
 .border-l-2 {
   border-color: rgba(var(--color-primary-500), 0.3) !important;
   border-width: 2px !important;
+}
+
+ol {
+  margin-left: 25px;
 }
 
 .timeline-item .shadow-2xl {

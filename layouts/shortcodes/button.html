@@ -1,9 +1,9 @@
 <a
-  class="!rounded-md ml-2 mr-2 bg-primary-600 px-4 py-2 !text-neutral !no-underline hover:!bg-primary-500 dark:bg-primary-800 dark:hover:!bg-primary-700"
+  class="button !text-neutral !rounded-md ml-2 mr-2 px-4 py-2"
   {{ with .Get "href" }}href="{{ . }}"{{ end }}
   {{ with .Get "target" }}target="{{ . }}"{{ end }}
   {{ with .Get "rel" }}rel="{{ . }}"{{ end }}
   {{ with .Get "download" }}download="{{ . }}"{{ end }}
   role="button">
-  {{ .Inner }}
+  <span>{{ .Inner }}</span>
 </a>
