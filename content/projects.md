@@ -39,7 +39,7 @@ In <b class="date-timeline">January 2021</b>, at Creajeux, I worked as a graduat
 🖥️ <b>Software projects</b>
 {{</ timelineMilestone >}}
 
-{{< timelineItem md="true" link="https://github.com/KANNAPE/go-quizz-web-app" icon="github" header="Go Quizz Web App" subheader="Web application — Quizz game" >}}
+{{< timelineItem md="true" link="https://github.com/KANNAPE/go-architecture-and-scalability-test" icon="github" header="Upfluence API" subheader="Web application — API and Statistics" >}}
 
 In <b class="date-timeline">March 2026</b>, I had to pass a technical test for a company, Upfluence. They asked me to create a **small API**, with one single route, that would listen from an event feed and compute metrics from a pool of data. The idea was to make an API entirely in **Golang** that was **production-ready**, easy to debug if errors were to appear, and relatively efficient.
 
