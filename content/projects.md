@@ -11,6 +11,12 @@ description: "A list of my recent personal coding projects"
 🕹️ <b>Gamedev projects</b>
 {{</ timelineMilestone >}}
 
+{{< timelineItem md="true" link="https://github.com/KANNAPE/space-invaders-redux-sfml" icon="github" header="Space Invaders Redux SFML" subheader="Game prototype – Graphics & Engine" >}}
+
+In <b class="date-timeline">March 2026</b>, I wanted to learn how games are made without using an engine, and so I remembered I had **SFML** courses during my scholarship. <br><br>From **dealing with inputs** and handling the **rendering of shapes** on screen to creating my own **game object** and **game state** systems... This recreation of Space Invaders was a fun experiment.
+
+{{< /timelineItem >}}
+
 {{< timelineItem md="true" link="https://github.com/KANNAPE/NetworkCMC" icon="github" header="Fracture" subheader="Game prototype — UI & Online gameplay" >}}
 
 Since <b class="date-timeline">March 2025</b>, I'm working on my free time on a game prototype called *Fracture*. <br><br>I wanted to recreate the feeling of **freedom and exploration** of the character controller from the game *Anthem*.<br>I'm also using this project to learn the **Mover component** from Unreal Engine, and how to manage **networking and online classes and subsystems**.
@@ -19,7 +25,7 @@ Since <b class="date-timeline">March 2025</b>, I'm working on my free time on a 
 
 {{< timelineItem md="true" link="https://github.com/KANNAPE/UNCHAINED_CharacterController" icon="github" header="UNCHAINED: Character Controller" subheader="Gameplay feature — Character controller" >}}
 
-From <b class="date-timeline">January 2023</b> to <b class="date-timeline">June 2023</b>, I worked on *UNCHAINED*, a student project heavily inspired by *DOOM* and *ULTRAKILL*. <br><br>On this project, I was in charge of the **character controller**, and implemented a **grappling mechanic** that I wanted to export to my GitHub.
+From <b class="date-timeline">January 2022</b> to <b class="date-timeline">June 2022</b>, I worked on *UNCHAINED*, a student project heavily inspired by *DOOM* and *ULTRAKILL*. <br><br>On this project, I was in charge of the **character controller**, and implemented a **grappling mechanic** that I wanted to export to my GitHub.
 
 {{< /timelineItem >}}
 
@@ -32,6 +38,12 @@ In <b class="date-timeline">January 2021</b>, at Creajeux, I worked as a graduat
 {{< timelineMilestone >}}
 🖥️ <b>Software projects</b>
 {{</ timelineMilestone >}}
+
+{{< timelineItem md="true" link="https://github.com/KANNAPE/go-quizz-web-app" icon="github" header="Go Quizz Web App" subheader="Web application — Quizz game" >}}
+
+In <b class="date-timeline">March 2026</b>, I had to pass a technical test for a company, Upfluence. They asked me to create a **small API**, with one single route, that would listen from an event feed and compute metrics from a pool of data. The idea was to make an API entirely in **Golang** that was **production-ready**, easy to debug if errors were to appear, and relatively efficient.
+
+{{< /timelineItem >}}
 
 {{< timelineItem md="true" link="https://github.com/KANNAPE/go-quizz-web-app" icon="github" header="Go Quizz Web App" subheader="Web application — Quizz game" >}}
 
